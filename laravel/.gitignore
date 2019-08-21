@@ -1,0 +1,18 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+<<<<<<< HEAD
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+=======
+>>>>>>> 76e2f86f6bee83f8e11b051a7ee041ae412309e5
+/vendor
+.env
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
