@@ -96,6 +96,12 @@ Migrating: 2014_10_12_100000_create_password_resets_table
 Migrated:  2014_10_12_100000_create_password_resets_table (0.49 seconds)
 ```
 
+Install `mysql-client` and `redis` packages in the Laravel container.
+
+```bash
+apk update && apk add mysql-client redis
+```
+
 Connect to your MySQL container from the Laravel container and see if these tables are created
 
 ```bash
